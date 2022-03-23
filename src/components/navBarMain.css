@@ -1,0 +1,86 @@
+:root {
+  --PrimaryBodyBGColor: rgb(239, 239, 239);
+  --PrimaryBGColor: #ffffff;
+}
+
+.n_main {
+  height: 3.5rem;
+  background-color: var(--PrimaryBGColor);
+  display: grid;
+  grid-template-columns: 10% 20% 15%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.n_logo {
+  margin-left: 1%;
+}
+
+.n_search {
+  position: relative;
+}
+
+.n_input_field {
+  background-color: var(--PrimaryBodyBGColor);
+  border-radius: 5px;
+  width: 117%;
+  height: 35px;
+  border: none;
+  padding-left: 9px;
+  padding-top: 10px;
+  margin: 2%;
+}
+
+.n_input_field {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.n_search_lable {
+  font-size: 16px;
+  position: absolute;
+  top: 9.5px;
+  left: 24%;
+  color: rgb(139, 139, 139);
+  transition: all 0.2s linear;
+  pointer-events: none;
+}
+
+.n_search_icon_lable {
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  font-size: 20px;
+  color: rgb(173, 173, 173);
+}
+
+.n_search_list {
+  position: absolute;
+  top: 100%;
+  left: -17%;
+  margin-top: 3%;
+  height: 78vh;
+  width: 31vw;
+  background-color: var(--PrimaryBGColor);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+
+.n_r_title {
+  padding: 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.n_icons {
+  display: flex;
+  align-items: center;
+  gap: 9%;
+  font-size: 25px;
+  margin-left: -46%;
+}
+
+.n_user_avatar,
+.svg_icon {
+  margin-bottom: 9px;
+}

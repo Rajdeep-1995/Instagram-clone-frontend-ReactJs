@@ -1,0 +1,51 @@
+.bd_body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.bd_modal {
+  width: 40%;
+  height: 70%;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.bd_modal_title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bd_modal_desc {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.bd_modal_close {
+  float: right;
+  margin-top: -7%;
+  margin-right: 3%;
+  font-weight: 400;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.bd_modal_lmore {
+  color: #008ae0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
