@@ -4,6 +4,7 @@ import AddBirthday from "./pages/auth/AddBirthday";
 import Login from "./pages/auth/Login";
 import Signup from "./pages/auth/Signup";
 import Home from "./pages/Home";
+import UserProfile from "./pages/UserProfile";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/accounts/signup" element={<Signup />} />
           <Route path="/" element={<Home />} />
+          <Route path="/:usernameParams" element={<UserProfile />} />
         </Routes>
       </Router>
     </>

@@ -62,6 +62,6 @@ export const isAuthenticated = () => {
 
 export const signOut = () => {
   if (typeof window !== undefined) {
-    sessionStorage.removeItem("jwt");
+    sessionStorage.removeItem("auth");
   }
 };

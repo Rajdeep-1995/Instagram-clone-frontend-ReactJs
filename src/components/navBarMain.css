@@ -3,6 +3,10 @@
   --PrimaryBGColor: #ffffff;
 }
 
+body{
+  background-color: var(--PrimaryBodyBGColor);
+}
+
 .n_main {
   height: 3.5rem;
   background-color: var(--PrimaryBGColor);
@@ -78,9 +82,14 @@
   gap: 9%;
   font-size: 25px;
   margin-left: -46%;
+  cursor: pointer;
 }
 
 .n_user_avatar,
 .svg_icon {
   margin-bottom: 9px;
+}
+
+.n_user_avatar{
+ position: relative;
 }
