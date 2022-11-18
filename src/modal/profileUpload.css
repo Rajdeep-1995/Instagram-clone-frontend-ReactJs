@@ -1,0 +1,53 @@
+.pr_modal_main_body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.pr_modal > hr{
+    margin: 0;
+}
+
+.pr_modal{
+    width: 35%;
+    height: 40%;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.pr_modal > div {
+    padding: 12px;
+}
+
+.pr_modal > div:nth-child(3) {
+    color: #0095f6;
+    font-weight: 700;
+}
+
+.pr_modal > div:nth-child(5) {
+    color: #ed4956;
+    font-weight: 700;
+}
+
+.pr_modal > div:not(:first-child) {
+    cursor: pointer;
+}
+
+.pr_modal > div:nth-child(1) {
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 7px;
+}

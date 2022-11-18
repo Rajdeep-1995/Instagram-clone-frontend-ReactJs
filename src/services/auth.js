@@ -60,6 +60,16 @@ export const isAuthenticated = () => {
   }
 };
 
+export const updateUserLocal = (updatedProfilePhoto) => {
+  if (typeof window !== undefined) {
+    if (sessionStorage.getItem("auth")) {
+      let auth = JSON.parse(sessionStorage.getItem("auth"));
+      auth.user.profilePhoto = updatedProfilePhoto;
+      sessionStorage.setItem("auth", JSON.stringify(auth));
+    }
+  }
+};
+
 export const signOut = () => {
   if (typeof window !== undefined) {
     sessionStorage.removeItem("auth");

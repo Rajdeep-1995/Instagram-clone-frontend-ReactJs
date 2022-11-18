@@ -93,3 +93,9 @@ body{
 .n_user_avatar{
  position: relative;
 }
+
+.n_user_avatar > img {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 1px;
+}

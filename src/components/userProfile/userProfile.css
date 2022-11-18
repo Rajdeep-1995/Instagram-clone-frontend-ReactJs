@@ -13,6 +13,11 @@ background-color: rgb(245, 244, 244);
     width: 160px;
     height: 160px;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.p_profile_photo_sc{
+    position: relative;
 }
 
 .p_profile_insight{
@@ -49,4 +54,16 @@ background-color: rgb(245, 244, 244);
 .p_profile_insight > div:nth-child(3) {
     font-weight: 500;
     font-size: 20px;
+}
+
+.p_upload_loading{
+    position: absolute;
+    top:30%;
+    right: 45%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.p_opacity {
+    opacity: 0.5;
 }
