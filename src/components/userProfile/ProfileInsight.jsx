@@ -3,7 +3,7 @@ import ProfileUpload from "../../modal/ProfleUpload";
 import { isAuthenticated } from "../../services/auth";
 import loadingIcon from "../../media/loading-buffering.gif";
 import "./userProfile.css";
-import SubNavMenu from "./SubNavMenu";
+import SubNavMenu from "./subMenuPost/SubNavMenu";
 
 const ProfileInsight = ({ usernameParams }) => {
   const [defaultAvatar, setDefaultAvatar] = useState(false);
@@ -58,7 +58,7 @@ const ProfileInsight = ({ usernameParams }) => {
           )}
           <div className="p_profile_insight">
             <div>
-              <p>{username}</p>
+              <p className="p_username_bold">{username}</p>
               <div>Edit Profile</div>
               <div>
                 <svg

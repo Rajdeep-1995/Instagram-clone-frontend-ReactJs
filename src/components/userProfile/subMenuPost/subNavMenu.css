@@ -1,0 +1,45 @@
+.sn_d_flex{
+    margin-top: 1%;
+    display: flex;
+    gap: 6%;
+    justify-content:center;
+    align-items: center;
+    z-index: 1;
+}
+
+.sn_hr{
+    width: 80%;
+    margin: 2.5rem auto 0 auto;
+    color: grey;
+}
+
+.sn_icons:hover {
+    cursor: pointer;
+}
+
+.sn_icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+
+.sn_icons > div:nth-child(2) {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+.sn_active_link{
+ position: absolute;
+ width: 100%;
+ height: 1.5px;
+ background-color: black;
+ top:-66%;
+}
+
+.sn_active_bold{
+    font-weight: 700;
+}
+

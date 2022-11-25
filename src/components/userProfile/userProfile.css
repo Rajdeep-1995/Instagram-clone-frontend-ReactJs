@@ -67,3 +67,7 @@ background-color: rgb(245, 244, 244);
 .p_opacity {
     opacity: 0.5;
 }
+
+.p_username_bold{
+    font-weight: 600 !important;
+}
